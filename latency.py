@@ -198,4 +198,4 @@ for alert in latency_alerts:
 print('-' * 50)
 
 # Send alerts to Slack
-# send_slack_alert(cpu_alerts, latency_alerts)
+send_slack_alert(cpu_alerts, latency_alerts)
